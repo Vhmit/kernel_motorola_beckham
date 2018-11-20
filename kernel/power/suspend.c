@@ -38,6 +38,10 @@
 extern int slst_gpio_base_id;
 #define PROC_AWAKE_ID 12 /* 12th bit */
 
+#include <linux/gpio.h>
+extern int slst_gpio_base_id;
+#define PROC_AWAKE_ID 12 /* 12th bit */
+
 const char *pm_labels[] = { "mem", "standby", "freeze", NULL };
 const char *pm_states[PM_SUSPEND_MAX];
 
